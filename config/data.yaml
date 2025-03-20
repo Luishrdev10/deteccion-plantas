@@ -1,0 +1,14 @@
+train: C:/Users/luish/Proyectos Visual studio code/Yolo/deteccion-plantas/datasets/train/images
+val: C:/Users/luish/Proyectos Visual studio code/Yolo/deteccion-plantas/datasets/valid/images
+test: c:/Users/luish/Proyectos Visual studio code/Yolo/deteccion-plantas/datasets/test/images
+
+nc: 3
+names: ['Dead-Plants', 'flowers', 'plants']
+
+roboflow:
+  workspace: deteccionobjetos-aiaoc
+  project: design-project-l6fmn-rxpae
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deteccionobjetos-aiaoc/design-project-l6fmn-rxpae/dataset/1
+
